@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    display: inline-flex;
+    z-index: 1;
+}
+
+img:hover {
+    width: 600px;
+    height: 450px;
+    z-index: 10;
+    position: absolute; 
+}
+
+.imagens {
+    margin-left: 100px;
+    display: inline-block;
+    position: relative;
+}
